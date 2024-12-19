@@ -30,8 +30,8 @@ function Inputs() {
 
   };
   return (
-    <div className='flex flex-row justify-center items-center my-6'>
-    <div className='flex flex-row justify-center items-center my-6 w-3/4 space-x-4'>
+    <div className='flex flex-row justify-center items-center my-6 '>
+    <div className='flex flex-row justify-center items-center my-6 w-3/4 space-x-4 '>
     <input type='text' placeholder='Enter city name...' className='text-gray-500 text-xl font-medium px-2 py-2 w-full shadow-xl capitalize focus:outline-none placeholder:lowercase' name='city' onChange={handleChange}/>
     <BiSearch size={30} className='text-white cursor-pointer transition ease-out hover:scale-125' onClick={handleClick}/>
     <BiCurrentLocation size={30} className='text-white cursor-pointer transition ease-out hover:scale-125' />

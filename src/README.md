@@ -8,7 +8,7 @@ The Weather App is a sleek  application designed to provide real-time weather up
 - 🕒 **3-hour interval forecasts**: Predictions for the next 5 days.
 - 🌈 **Dynamic weather icons**: Visually appealing icons to match current weather conditions.
 
-![Weather App Screenshot](../my-weather/src/assets/weather.png)
+![Weather App Screenshot](./assets/weather.png)
 
 ## Built With
 

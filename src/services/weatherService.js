@@ -1,4 +1,4 @@
-const API_KEY = '2a826838db0a211512eed1b486be9479'
+ const API_KEY = '2a826838db0a211512eed1b486be9479'
 const BASE_URL = 'https://api.openweathermap.org/data/2.5/'
 
 const getWeatherData = (infoType, searchParams) => {
@@ -16,4 +16,8 @@ const getWeatherData = (infoType, searchParams) => {
         })
         .catch((err) => console.error("Error fetching weather data:", err));
 };
-export default getWeatherData
+export default getWeatherData 
+
+
+
+

@@ -6,13 +6,13 @@ function TimeAndLocation() {
   const [currentTime, setCurrentTime] = useState(null);
   const { weather, city, error } = useContext(WeatherContext);
 
-  if (error) {
+ if (error) {
     return (
       <div className="flex justify-center items-center my-6">
         <p className="text-red-500 text-xl font-medium">{error}</p>
       </div>
     );
-  }
+  } 
 
   useEffect(() => {
     if (!weather) return; // Prevent running the interval if weather is null
@@ -47,5 +47,6 @@ function TimeAndLocation() {
     </div>
   );
 }
+
 
 export default TimeAndLocation;

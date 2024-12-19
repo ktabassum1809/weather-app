@@ -1,6 +1,5 @@
 
-
-import './App.css'
+ import './App.css'
 import DailyForecast from './components/DailyForecast'
 import Forecast from './components/Forecast'
 import Inputs from './components/Inputs'
@@ -33,4 +32,4 @@ function App(){
   )
 }
 
-export default App
+export default App 
